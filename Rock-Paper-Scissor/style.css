@@ -1,0 +1,50 @@
+body{
+    margin: 0px;
+    background-color: black;
+    color: whitesmoke;
+    font-size: 2em;
+    text-align: center;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+button{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    font-size: 3em;
+    margin: 8px;
+    background-color: rgb(53, 188, 255);
+    border: 5px solid whitesmoke;
+}
+
+button:hover{
+    background-color: tomato;
+    cursor: pointer;
+
+    font-size: 3.1em;
+    
+}
+
+p{
+    font-family: monospace;
+}
+
+span{
+    font-size: 40px;
+    font-weight: 800;
+}
+
+#scoreCard{
+    border: 5px solid grey;
+    background-color: gray;
+    padding: 0px;
+}
+
+#result{
+    color: blueviolet;
+    font-size: 3em;
+    margin: 0px;
+    font-weight: 600;
+}

@@ -1,0 +1,44 @@
+body{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 10em;
+    margin: 0px;
+    padding: 0px;
+
+    font-family: monospace;
+    
+}
+
+.container{
+    /* border: 2px solid red; */
+    height: 99vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#btn{
+
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px ;
+    
+}
+button{
+    width: 250px;
+    padding: 10px;
+    font-size: 40px;
+    font-weight: 900;
+    border-radius: 10px;
+}
+
+button:hover{
+    background-color: black;
+    border: 2px solid white;
+    color: whitesmoke;
+    cursor: pointer;
+}

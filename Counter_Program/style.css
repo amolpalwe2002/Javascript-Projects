@@ -1,0 +1,37 @@
+body{
+    background-color: black;
+    color: whitesmoke;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.container{
+    /* margin-top: 15%; */
+    /* border: 2px solid white; */
+}
+
+#count{
+    text-align: center;
+    font-size: 150px;
+    
+}
+
+.btn{   
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+button{
+    font-size: 25px;
+    padding: 20px;
+    width: 25%;
+    background-color: greenyellow;
+    border-radius: 25px;
+    cursor: pointer;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+button:hover{
+    background-color: green;
+    color: aliceblue;
+}

@@ -1,0 +1,21 @@
+body{
+    background-color: black;
+    color: white;
+    font-size: 10em;
+
+    font-family:monospace;
+    
+}
+
+.container{
+
+    /* border: 2px solid white; */
+}
+
+#clock{
+    text-align: center;
+    margin-top: 15%;
+    
+    /* border: 2px solid white; */
+
+}
